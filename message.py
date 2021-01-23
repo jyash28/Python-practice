@@ -1,5 +1,6 @@
 import requests
-import json
+import json 
+import os
 
 def send_sms(number,message):
     url ="https://www.fast2sms.com/dev/bulk"
